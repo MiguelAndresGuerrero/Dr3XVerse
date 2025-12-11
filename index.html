@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres | Streaming de Videojuegos con Toque Técnico</title>
+    <link rel="shortcut icon" href="./media/DreXNation.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <div class="container nav-container">
+            <a href="./index.html" class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>Dr3XNation</span>
+            </a>
+            <nav>
+                <ul class="nav-gaming">
+                    <li><a href="#home">INICIO</a></li>
+                    <li><a href="#stream">STREAM</a></li>
+                    <li><a href="#links">CONECTA</a></li>
+                    <li><a href="#setup">SETUP</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-gaming">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-subtitle">STREAMING & GAMING COMMUNITY</h2>
+                <h1 class="hero-title">HOLA, SOY <span>ANDRES</span></h1>
+
+                <p class="hero-description">
+                    Transmito mi pasión por los videojuegos mientras construyo experiencias digitales.
+                    Me encanta explorar mundos virtuales, descubrir mecánicas interesantes y compartir
+                    esos momentos con la comunidad. Cuando no estoy jugando, disfruto creando cosas
+                    interesantes detrás de escena.
+                </p>
+
+                <div class="game-tags">
+                    <span class="game-tag">MUNDO ABIERTO</span>
+                    <span class="game-tag">ESTRATEGIA</span>
+                    <span class="game-tag">ACCIÓN</span>
+                    <span class="game-tag">MULTIJUGADOR</span>
+                    <span class="game-tag">SURVIVAL</span>
+                </div>
+
+                <div class="stream-highlight">
+                    <p><i class="fas fa-broadcast-tower"></i> <strong id="stream-status-text">EN DIRECTO AHORA:</strong>
+                        <span id="current-game">Unirme al streaming</span>
+                    </p>
+                    <div class="stream-schedule">
+                        <div class="schedule-dot" id="stream-indicator"></div>
+                        <span id="schedule-text">Miércoles 19:00 | Viernes 20:00 | Domingo 17:00 (GMT-5)</span>
+                    </div>
+
+                    <a href="#" id="stream-link" class="stream-link-inactive" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> UNIRME AL STREAM
+                    </a>
+                </div>
+
+                <a href="#links" class="link-button">CONECTA CONMIGO</a>
+            </div>
+            <br>
+            <div class="hero-image">
+                <div class="setup-container">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        alt="Gaming Setup de Andres">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="links" class="stream-links">
+        <div class="container">
+            <h2 class="section-title">CONECTA CONMIGO</h2>
+            <p style="text-align: center; color: var(--text-gray); max-width: 700px; margin: 0 auto 50px;">
+                Únete a la comunidad, comparte estrategias, participa en eventos y mantente al día con
+                todo el contenido. También comparto algunos proyectos personales interesantes.
+            </p>
+
+            <div class="links-grid">
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-twitch"></i>
+                    </div>
+                    <h3>Twitch</h3>
+                    <p>Streams en directo, gameplays, análisis de mecánicas y mucha interacción con la comunidad. El
+                        lugar principal donde nos conectamos.</p>
+                    <a href="https://www.twitch.tv/dr3sxp" target="_blank" class="link-button">VER STREAMS</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>Highlights, análisis profundos de juegos, guías y contenido especial. También algunos
+                        experimentos creativos con gameplay.</p>
+                    <a href="https://www.youtube.com/@Dr3XP" target="_blank" class="link-button">VER VIDEOS</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3>TikTok</h3>
+                    <p>Clips cortos, momentos divertidos, tips rápidos de gaming y contenido viral. 
+                       El lugar perfecto para contenido rápido y entretenido de la comunidad.</p>
+                    <a href="https://www.tiktok.com/@dr3sxp" target="_blank" class="link-button">VER TIKTOKS</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord</h3>
+                    <p>Comunidad Dr3XNation - El espacio exclusivo para seguidores donde gamers y
+                        desarrolladores web se encuentran. Eventos, partidas, proyectos y mucho más. <br>
+                        ¡Tu lugar en la comunidad!</p>
+                    <a href="https://discord.gg/qraCpf9HpP" target="_blank" class="link-button">UNIRSE A LA
+                        COMUNIDAD</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>Twitter</h3>
+                    <p>Actualizaciones en tiempo real, pensamientos sobre gaming, anuncios de streams y conversaciones
+                        con la comunidad.</p>
+                    <a href="https://x.com/AndresG47933819" target="_blank" class="link-button">SEGUIR</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Proyectos de Andres</h3>
+                    <p>Algunas herramientas interesantes para gamers, modificaciones de UI y experimentos con mecánicas
+                        de juego. Cosas que creo entre streams.</p>
+                    <a href="https://github.com/MiguelAndresGuerrero" target="_blank" class="link-button">EXPLORAR</a>
+                </div>
+
+                <div class="link-card">
+                    <div class="link-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Detrás de escenas, momentos del setup, capturas épicas de gameplay y un vistazo a la vida detrás
+                        del stream.</p>
+                    <a href="https://www.instagram.com/andres_guerrero_001/" target="_blank" class="link-button">VER
+                        FOTOS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="setup" class="gaming-setup">
+        <div class="container">
+            <h2 class="section-title">MI ENTORNO DE STREAMING</h2>
+            <p style="text-align: center; color: var(--text-gray); max-width: 800px; margin: 0 auto 40px;">
+                El espacio donde la magia sucede. Me gusta optimizar cada aspecto para crear la mejor
+                experiencia, tanto para mí como para la comunidad.
+            </p>
+
+            <div class="setup-grid">
+                <div class="setup-item">
+                    <i class="fas fa-desktop"></i>
+                    <h4>Equipo Principal</h4>
+                    <p>Configuración optimizada para gaming y streaming simultáneo, con atención a cada detalle técnico.
+                    </p>
+                </div>
+
+                <div class="setup-item">
+                    <i class="fas fa-video"></i>
+                    <h4>Producción Visual</h4>
+                    <p>Cámaras, iluminación y overlays personalizados para una experiencia visual inmersiva.</p>
+                </div>
+
+                <div class="setup-item">
+                    <i class="fas fa-headset"></i>
+                    <h4>Audio Inmersivo</h4>
+                    <p>Configuración de audio profesional para comunicación clara y sonido de juego envolvente.</p>
+                </div>
+
+                <div class="setup-item">
+                    <i class="fas fa-cogs"></i>
+                    <h4>Automatización</h4>
+                    <p>Sistemas personalizados que hacen que el streaming sea más fluido y interactivo.</p>
+                </div>
+            </div>
+
+            <div class="terminal-note">
+                <p>
+                    <i class="fas fa-terminal"></i>
+                    "Disfruto tanto jugar juegos como entender cómo funcionan por dentro.
+                    A veces creo mis propias herramientas para mejorar la experiencia de streaming."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">¿LISTO PARA JUGAR?</h2>
+            <p class="footer-description">
+                Siempre abierto a colaboraciones, partidas multijugador y conversaciones sobre gaming.
+                También puedo ayudar con temas técnicos relacionados con streaming.
+            </p>
+
+            <div class="footer-social">
+                <a href="https://www.twitch.tv/dr3sxp" target="_blank" title="Twitch"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.youtube.com/@Dr3XP" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@dr3sxp" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://discord.gg/qraCpf9HpP" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+                <a href="https://x.com/AndresG47933819" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/MiguelAndresGuerrero" target="_blank" title="Proyectos"><i class="fas fa-code"></i></a>
+                <a href="https://www.instagram.com/andres_guerrero_001/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="copyright">
+                © 2025 Dr3sXP. Todos los derechos reservados <br>
+                Gaming con pasión, streaming con dedicación, creación con curiosidad
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
